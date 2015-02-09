@@ -9,7 +9,6 @@ import org.wso2.siddhi.query.api.extension.annotation.SiddhiExtension;
 /**
 * Created by sachini on 1/7/15.
 */
-
 @SiddhiExtension(namespace = "debs", function = "cellId")
 public class CellIdFunction extends FunctionExecutor {
     Logger log = Logger.getLogger(CellIdFunction.class);
