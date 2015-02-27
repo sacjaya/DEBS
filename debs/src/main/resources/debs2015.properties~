@@ -1,0 +1,6 @@
+#The input data set
+org.wso2.siddhi.debs2015.dataset=$HOME/DEBS2015/dataset/sorted_data.csv
+#The location where all the experiment results are stored.
+org.wso2.siddhi.debs2015.experiment.logdir=$HOME/DEBS2015/evaluations
+#The following flag is used to indicate whether we are loading the entire data set into memory or follow an incremental data loading technique.
+org.wso2.siddhi.debs2015.flags.incrementalloading=true
